@@ -30,53 +30,7 @@ A:hover {
   background: #6e8dcb;
 }
 
-.chatbot-container {
-  z-index: 9999;
-  align-items: center;
-  gap: 8px;
-  display: flex;
-  position: fixed;
-  bottom: 20px;
-  left: 20px;
-}
-
-#chatbot-input {
-  color: #fff;
-  background-color: #4d73bf;
-  border: none;
-  border-radius: 6px;
-  outline: none;
-  width: 150px;
-  padding: 8px;
-  font-size: 12px;
-}
-
-#chatbot-input::placeholder {
-  color: #fff;
-}
-
-.chatbot-send-button {
-  color: #036;
-  cursor: pointer;
-  background: none;
-  border: none;
-  padding: 6px 10px;
-  font-size: 14px;
-  font-weight: bold;
-}
-
-#chatbot-copy {
-  color: #036;
-  cursor: pointer;
-  background: none;
-  border: none;
-  border-radius: 6px;
-  padding: 6px 10px;
-  font-size: 14px;
-  font-weight: bold;
-}
-
-#chatbot-copy.active, #ocr-md.active {
+#ocr-md.active {
   color: #fff;
 }
 

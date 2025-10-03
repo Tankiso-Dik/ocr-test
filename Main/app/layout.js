@@ -1,6 +1,5 @@
 // app/layout.js
 import './globals.css'; // Import your global CSS
-import Chatbot from './chatbot/Chatbot';
 import Ocr from './ocr/Ocr';
 
 export const metadata = {
@@ -30,7 +29,6 @@ export default function RootLayout({ children }) {
       </head>
       <body className="Xbody" style={{ backgroundColor: '#4d73bf', color: '#ffffff' }}>
       {children} {/* This is where your page content will be rendered */}
-      <Chatbot />
       <Ocr />
       </body>
       </html>
