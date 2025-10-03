@@ -1,4 +1,0 @@
-Traceback (most recent call last):
-  File "/home/tabkiso-mpela/Documents/ocr-test/server.py", line 2, in <module>
-    from flask import Flask, request, render_template
-ModuleNotFoundError: No module named 'flask'

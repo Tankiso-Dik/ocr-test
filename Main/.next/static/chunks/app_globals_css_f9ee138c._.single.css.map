@@ -1,6 +1,0 @@
-{
-  "version": 3,
-  "sources": [],
-  "sections": [
-    {"offset": {"line": 1, "column": 0}, "map": {"version":3,"sources":["turbopack:///[project]/app/globals.css"],"sourcesContent":["@import './ocr/ocr.css';\n/* app/globals.css */\n\n/* Your entire <style> block content from your original HTML goes here */\n\n.Xbody { font-family: arial , Arial, Helvetica; font-size: 10pt; color: #ffffff }\ntd { font-family: arial , Arial, Helvetica; font-size: 10pt; color: #ffffff }\npre { font-family: arial , Arial, Helvetica; font-size: 10pt; color: #ffffff }\nA:active, A:link, A:visited, A:hover {\n  font-family: arial , Arial, Helvetica;\n  font-size: 10pt;\n  text-decoration: none;\n  font-weight: bold;\n  color: #ffffff;\n}\nA:hover { text-decoration: underline; }\n.a12, .a14, .a16, .a18, .b12, .b14, .b16, .b18, .frm {\n  font-family: arial , Arial, Helvetica;\n  color: #66ffff;\n}\n\n.strip tr:nth-child(even) { background: #5e80c5; }\n.strip tr:nth-child(odd) { background: #6e8dcb; }\n\n/* OCR markdown copy button mirrors the left copy style */\n#ocr-md.active {\n  color: #ffffff;\n}\n\n/* No specific styles for .niceBut or .nicePar from your old code, as those elements are not present */\n"],"names":[],"mappings":"AAKA;;;;;;AAGA;;;;;;;;AAOA;;;;AACA;;;;;AAKA;;;;AACA;;;;AAGA"}}]
-}
