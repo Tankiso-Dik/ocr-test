@@ -1,0 +1,83 @@
+/* [project]/app/globals.css [app-client] (css) */
+.Xbody, td, pre {
+  color: #fff;
+  font-family: arial, Arial, Helvetica;
+  font-size: 10pt;
+}
+
+A:active, A:link, A:visited, A:hover {
+  color: #fff;
+  font-family: arial, Arial, Helvetica;
+  font-size: 10pt;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+A:hover {
+  text-decoration: underline;
+}
+
+.a12, .a14, .a16, .a18, .b12, .b14, .b16, .b18, .frm {
+  color: #6ff;
+  font-family: arial, Arial, Helvetica;
+}
+
+.strip tr:nth-child(2n) {
+  background: #5e80c5;
+}
+
+.strip tr:nth-child(odd) {
+  background: #6e8dcb;
+}
+
+.chatbot-container {
+  z-index: 9999;
+  align-items: center;
+  gap: 8px;
+  display: flex;
+  position: fixed;
+  bottom: 20px;
+  left: 20px;
+}
+
+#chatbot-input {
+  color: #fff;
+  background-color: #4d73bf;
+  border: none;
+  border-radius: 6px;
+  outline: none;
+  width: 150px;
+  padding: 8px;
+  font-size: 12px;
+}
+
+#chatbot-input::placeholder {
+  color: #fff;
+}
+
+.chatbot-send-button {
+  color: #036;
+  cursor: pointer;
+  background: none;
+  border: none;
+  padding: 6px 10px;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+#chatbot-copy {
+  color: #036;
+  cursor: pointer;
+  background: none;
+  border: none;
+  border-radius: 6px;
+  padding: 6px 10px;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+#chatbot-copy.active, #ocr-md.active {
+  color: #fff;
+}
+
+/*# sourceMappingURL=app_globals_css_f9ee138c._.single.css.map*/

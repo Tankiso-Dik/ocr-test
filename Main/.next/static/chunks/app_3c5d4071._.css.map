@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 4, "column": 0}, "map": {"version":3,"sources":["file:///home/tabkiso-mpela/Documents/ocr-test/Main/app/ocr/ocr.css"],"sourcesContent":[".ocr-container {\n    position: fixed;\n    bottom: 20px;\n    right: 20px;\n    display: flex;\n    flex-direction: column;\n    align-items: flex-end;\n}\n\n.ocr-output {\n    width: 300px;\n    height: 200px;\n    margin-bottom: 10px;\n}\n\n.ocr-output textarea {\n    width: 100%;\n    height: 100%;\n    border: 1px solid #ccc;\n    border-radius: 6px;\n    padding: 10px;\n    font-family: sans-serif;\n    font-size: 14px;\n    resize: none;\n}\n\n.ocr-controls button {\n    padding: 10px 20px;\n    border: none;\n    border-radius: 6px;\n    background-color: #4d73bf;\n    color: white;\n    cursor: pointer;\n}\n\n.ocr-controls button:disabled {\n    background-color: #ccc;\n    cursor: not-allowed;\n}\n"],"names":[],"mappings":"AAAA;;;;;;;;;AASA;;;;;;AAMA;;;;;;;;;;;AAWA;;;;;;;;;AASA","debugId":null}}]
+}
